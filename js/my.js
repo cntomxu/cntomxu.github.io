@@ -14,7 +14,7 @@ if (typeof String.prototype.endsWith != 'function') {
 	String.prototype.endsWith = function(suffix) { return this.slice(-suffix.length) == suffix; };
 }
 //////////////////
-$(document).ready(function () {
+//$(document).ready(function () {
     var isso_s=$("#isso-script");
     if(window.location.hostname.startsWith("localhost")) {
         isso_s.attr("data-isso","http://localhost:4100/");
@@ -23,4 +23,4 @@ $(document).ready(function () {
         isso_s.attr("data-isso","https://cmt.cntomxu.com/");
         isso_s.attr("src","https://cmt.cntomxu.com/js/embed.min.js");
     }
-});
+//});
