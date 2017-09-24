@@ -1,0 +1,25 @@
+/* comment */
+#isso-div {
+    margin-top: 60px;
+    width:100%;
+}
+#isso-div a {
+    border-bottom: 0px solid #999;
+}
+#isso-div .auth-section input[type=submit] {
+    width:120px;
+    height:30px;
+    background-color: #93D357;
+    color: white;
+}
+#isso-thread .textarea.placeholder {
+    color: #AAA;
+}
+.isso-postbox > .form-wrapper > .auth-section .input-wrapper input::placeholder {
+    color: #AAA;
+}
+.isso-comment > div.text-wrapper > .isso-comment-header .note {
+    float: right;
+    border: 0px;
+}
+/*  */
