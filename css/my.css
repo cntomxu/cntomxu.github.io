@@ -22,4 +22,10 @@
     float: right;
     border: 0px;
 }
-/*  */
+/* theme: next */
+.posts-expand .post-body img {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0px;
+    border: 0.5px solid #ddd;
+}
