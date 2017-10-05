@@ -29,3 +29,18 @@
     padding: 0px;
     border: 0.5px solid #ddd;
 }
+.site-author-image {
+  border-radius: 100%;
+  padding: 2px;
+  border: 2px dashed #fff;
+  animation: cycle 2s 0.5s forwards;
+  transition: border-radius 2s;
+}
+/* Custom for headband */
+/* .site-meta {
+    background: #424242;
+}
+.headband {
+    background: #424242;
+}
+*/
